@@ -2,7 +2,7 @@
 
 Scripts works with python3.6
 To install required packages you need:
-* Install pip[this file](https://pip.pypa.io/en/stable/installing/)
+* Install pip [this file](https://pip.pypa.io/en/stable/installing/)
 * Install and activate standalone virtualenv, if you need
 * Install required packages:
     python -m pip install -r ./requirements/common.txt
