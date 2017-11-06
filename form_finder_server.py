@@ -104,9 +104,7 @@ def find_best_form(request_data, database):
         for template_field, field_value in form_template.items():
             if template_field == 'name':
                 continue
-            if field_value == request_data.get(template_field):
-                continue
-            else:
+            if field_value != request_data.get(template_field):
                 match_current = False
                 break
         if match_current:
